@@ -1,0 +1,55 @@
+{% extends 'base.html' %} 
+
+{% block title %}{% endblock title %}
+
+{% block body %}
+<div class="container-fluid my-0 mb-3 px-0">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/3.jfif" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Contact Us</h5>
+        <p> Fill the form given below </p>
+               
+      </div>
+    </div>
+    
+</div>
+<form>
+<h2 class="text-center">Contact Form</h2>
+<div class="container ">
+<div class="mb-3">
+  <label for="name" class="form-label">Name</label>
+  <input type="text" class="form-control" id="name" name = "name" placeholder="Enter your name:">
+</div>
+
+<div class="mb-3">
+  <label for="phone" class="form-label">Phone No. </label>
+  <input type="phone" class="form-control" id="phone" name = "phone" placeholder="Enter your phone no">
+</div>
+
+<div class="mb-3">
+  <label for="email" class="form-label">Email Address </label>
+  <input type="email" class="form-control" id="email" name = "email" placeholder="Enter your Email address:">
+</div>
+
+
+<div class="mb-3">
+  <label for="desc" class="form-label">What do you want to contact us for ?</label>
+  <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+</div>
+<button class= "btn btn-primary" type = "submit">Submit</button>
+</div>
+</form>  
+</div>
+
+
+
+
+
+{% endblock body %}
