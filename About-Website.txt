@@ -1,0 +1,16 @@
+This is a responsive website developed for purpose of evaluation by nemesis consultants.
+Functions :
+>> Home Page : Homepage consists of a navigation bar with link to other sub domains of the website.
+>> Following are the other domains which are part of core website and can be futher modified as per requirement:
+  1. Home Page : Consolidated view (Contains other login, signup options)
+  2. About Page : About the webiste
+  3. Contact Page : Consists of a User Query Form (Posted in background Database)
+  4. Service Page
+  5. Login Button: Can be used to login (If user is a alrady a authenticated user)
+     It will throw a error-message if the user is not registered.
+  6. Sign-up Button: New users can register through this button by entering the required credentials.
+  7. Details Form: After Sign In (/Signup initially), user can enter the details and submit the details (Can be further edited) 
+  8. Admin : This website also contains a admin-page (login) which can be further used to manage users or edit details.
+     (Admin ID-Pw and link is not accessible publically, can be asked in case of any contribution)
+  9. An API is also integrated to this website which downloads data for website interface.
+  
