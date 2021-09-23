@@ -23,6 +23,9 @@ admin.site.index_title="Welcome to the Harshit's Project"
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-    path('', include('home.urls'))
+    path('', include('home.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('accounts/', include('accounts.urls')),
+    
 
 ]
