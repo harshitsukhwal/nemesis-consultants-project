@@ -13,4 +13,6 @@ Functions :
   8. Admin : This website also contains a admin-page (login) which can be further used to manage users or edit details.
      (Admin ID-Pw and link is not accessible publically, can be asked in case of any contribution)
   9. An API is also integrated to this website which downloads data for website interface.
+  10.Login page have also set on a session timeout of 5mins.
+  11.Website is fully authenticated and vulnerabilty secured.
   
